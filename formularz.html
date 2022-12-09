@@ -8,13 +8,22 @@
 </head>
 
 <body>
-    <h1>formularz zakupu figurek</h1><br>
-    <span>imie</span><br>
-    <span>nazwisko</span><br>
-    <span>mail</span><br>
-    <span>kod-pocztowy</span><br>
-    <span>ulica i numer</span><br>
-    
+    <h1>formularz zakupu figurek</h1>
+
+    <h4>dane kupującego:</h4>
+    <span>imie <input type="text" id="imie"></span> <span>nazwisko <input type="text" id="nazwisko"></span><br>
+    <span>mail <input type="text" id="mail"></span><br>
+    <span>kod-pocztowy <input type="text" id="kod"></span> <span>ulica i numer <input type="text" id="ul"><input
+            type="text" id="ul_nr"></span><br><br>
+
+    <h4>koszyk kupującego:</h4>
+    <span>id figurki <input type="number" id="id"></span><br>
+    <span>ilość <input type="number" id="ile"></span><br>
+    <button onclick="plus()">//dodaj figurke</button><br><br>
+
+    <span>Regulamin<a href=""> tutaj </a> <input type="checkbox" id="regulamin"></span><br>
+    <span id="error"></span>
+
     <button onclick="run()">prześlij</button>
 
 </body>
