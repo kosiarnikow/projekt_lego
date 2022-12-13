@@ -1,0 +1,1 @@
+trzeba się jakoś podzielić
