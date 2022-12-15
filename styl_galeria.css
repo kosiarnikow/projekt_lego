@@ -1,0 +1,99 @@
+body {
+    font-size: 30px;
+    color: white;
+}
+
+.naglowek1 {
+    background-color:#012E65;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    border-right: 100px;
+}
+
+.naglowek2 {
+    background-color: #012E65;
+    height: 295px;
+    width: 100%;
+    clear: both;
+    text-align: right;
+    margin-bottom: 60px;
+}
+
+.glowny {
+    background-color:#ffffff;
+    height: 2400px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    clear: both;
+}
+
+.stopka {
+    background-color:#012E65;
+    height: 250px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.kloc_nieb {
+    width: 409px;
+    height: 441px;
+    background: #85A2D1;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    display: inline-block;
+    margin-left: 50px;
+    color:white;
+}
+
+.kloc_ziel {
+    width: 409px;
+    height: 441px;
+    background: #A3D8AE;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    display: inline-block;
+    margin-left: 50px;
+    color:white;
+}
+
+.kloc_czer {
+    width: 409px;
+    height: 441px;
+    background: #D58787;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    color:white;
+}
+
+.przerwa {
+    clear: both;
+    height: 100px;
+}
+
+img {
+width: 409px;
+height: 286px;
+border-radius: 60px;
+padding-bottom: 45px;
+}
+
+.zdjecie_ngl2{
+width: 873px;
+height: 192px;
+background: url(zdj_naglowek2.png);
+float: right;
+}
+
+a:hover{
+    background-color:#cde800;
+    font-size: 50px;
+}
